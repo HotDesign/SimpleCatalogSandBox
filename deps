@@ -109,3 +109,25 @@
     target=bundles/WhiteOctober/PagerfantaBundle
     version=origin/symfony2.0
     
+    
+#SimpleCatalog!
+
+[SimpleCatalogBundle]
+    git=https://Marian0@github.com/Marian0/SimpleCatalogBundle.git
+    target=bundles/HotDesign/SimpleCatalogBundle
+    
+[ScGeoExtBundle]
+    git=https://Marian0@github.com/Marian0/ScGeoExtBundle.git
+    target=bundles/HotDesign/ScGeoExtBundle
+    
+[ScHousingExtBundle]
+    git=https://Marian0@github.com/Marian0/ScHousingExtBundle.git
+    target=bundles/HotDesign/ScHousingExtBundle
+    
+[ScUserBundle]
+    git=https://Marian0@github.com/Marian0/ScUserBundle.git
+    target=bundles/HotDesign/ScUserBundle
+    
+[ScThemeBundle]
+    git=https://Marian0@github.com/Marian0/ScThemeBundle.git
+    target=bundles/HotDesign/ScThemeBundle

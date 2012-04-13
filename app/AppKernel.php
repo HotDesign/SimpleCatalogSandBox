@@ -37,6 +37,9 @@ class AppKernel extends Kernel {
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             
             new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),   
+            
+            //SimpleCatalog
+            //new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),   
 
 
         );

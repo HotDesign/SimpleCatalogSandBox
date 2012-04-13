@@ -29,6 +29,9 @@ $loader->registerNamespaces(array(
     
     'WhiteOctober\PagerfantaBundle' => __DIR__.'/../vendor/bundles',
     'Pagerfanta'                    => __DIR__.'/../vendor/PagerFanta/src',
+    
+    //HotDesign
+    'HotDesign' => __DIR__.'/../vendor/bundles/HotDesign',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__ . '/../vendor/twig-extensions/lib',
