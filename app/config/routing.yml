@@ -1,0 +1,27 @@
+HotDesignScThemeBundle:
+    resource: "@HotDesignScThemeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ScUserBundle:
+    resource: "@ScUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+SimpleCatalogBundle:
+    resource: "@SimpleCatalogBundle/Resources/config/routing.yml"
+    prefix:   /admin
+    
+    
+_imagine:
+    resource: .
+    type:     imagine
+
+# Extensions
+
+AdminScGeoExt:
+    resource: "@ScGeoExtBundle/Resources/routing/scgeoext.yml"
+    prefix:   /admin/scgeoext
+
+    
+ScHousingExt:
+    resource: "@ScHousingExtBundle/Resources/config/routing/schousingext.yml"
+    prefix:   /admin/schousingext
