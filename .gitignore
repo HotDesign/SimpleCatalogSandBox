@@ -30,6 +30,9 @@ nbproject
 /web/catalog/cache/*
 
 #Ignoramos el archivo generado por el updater
-updater.sh
+bin/updater.sh
+
+#Ignoramos comodidad
+HotDesign
 
 
