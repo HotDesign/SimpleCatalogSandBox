@@ -17,11 +17,6 @@ class AppKernel extends Kernel {
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
-            // SimpleCatalog Bundle
-            
-            new HotDesign\SimpleCatalogBundle\SimpleCatalogBundle(),
-            new HotDesign\ScGeoExtBundle\ScGeoExtBundle(),
-            new HotDesign\ScUserBundle\ScUserBundle(),
             
             //Fixtures
              new Symfony\Bundle\DoctrineFixturesBundle\DoctrineFixturesBundle(),
@@ -30,8 +25,6 @@ class AppKernel extends Kernel {
             
             // FOSUser
             new FOS\UserBundle\FOSUserBundle(),
-            new HotDesign\ScThemeBundle\HotDesignScThemeBundle(),
-            new HotDesign\ScHousingExtBundle\ScHousingExtBundle(),
 
             //KnpMenu
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
@@ -40,6 +33,11 @@ class AppKernel extends Kernel {
             
             //SimpleCatalog
             //new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),   
+            new HotDesign\SimpleCatalogBundle\SimpleCatalogBundle(),
+            new HotDesign\ScGeoExtBundle\ScGeoExtBundle(),
+            new HotDesign\ScUserBundle\ScUserBundle(),
+            new HotDesign\ScThemeBundle\HotDesignScThemeBundle(),
+            new HotDesign\ScHousingExtBundle\ScHousingExtBundle(),
 
 
         );

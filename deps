@@ -113,21 +113,21 @@
 #SimpleCatalog!
 
 [SimpleCatalogBundle]
-    git=https://Marian0@github.com/Marian0/SimpleCatalogBundle.git
+    git=https://Marian0@github.com/HotDesign/SimpleCatalogBundle.git
     target=bundles/HotDesign/SimpleCatalogBundle
     
 [ScGeoExtBundle]
-    git=https://Marian0@github.com/Marian0/ScGeoExtBundle.git
+    git=https://Marian0@github.com/HotDesign/ScGeoExtBundle.git
     target=bundles/HotDesign/ScGeoExtBundle
     
 [ScHousingExtBundle]
-    git=https://Marian0@github.com/Marian0/ScHousingExtBundle.git
+    git=https://Marian0@github.com/HotDesign/ScHousingExtBundle.git
     target=bundles/HotDesign/ScHousingExtBundle
     
 [ScUserBundle]
-    git=https://Marian0@github.com/Marian0/ScUserBundle.git
+    git=https://Marian0@github.com/HotDesign/ScUserBundle.git
     target=bundles/HotDesign/ScUserBundle
     
 [ScThemeBundle]
-    git=https://Marian0@github.com/Marian0/ScThemeBundle.git
+    git=https://Marian0@github.com/HotDesign/ScThemeBundle.git
     target=bundles/HotDesign/ScThemeBundle
