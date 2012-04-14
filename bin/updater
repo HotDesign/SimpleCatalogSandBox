@@ -155,7 +155,7 @@ $output .= (sprintf('%s %s assets:install --symlink %s', $interpreter, escapeshe
 // Remove the cache
 $output .= (sprintf('%s %s cache:clear --no-warmup', $interpreter, escapeshellarg($rootDir.'/app/console'))) . "\n";
 
-file_put_contents('updater.sh', $output);
+file_put_contents('bin/updater.sh', $output);
 
 echo "Ejecución terminada con éxito. Ahora debe correr: \nchmod +x updater.sh\n./updater.sh.\n\n";
 

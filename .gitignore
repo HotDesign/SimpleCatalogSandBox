@@ -31,8 +31,3 @@ nbproject
 
 #Ignoramos el archivo generado por el updater
 bin/updater.sh
-
-#Ignoramos comodidad
-HotDesign
-
-
