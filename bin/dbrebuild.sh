@@ -8,3 +8,4 @@ php app/console cache:clear --env=prod
 php app/console cache:clear
 php app/console assets:install --symlink web
 chmod -R 777 app/db
+chmod -R 777 web/catalog
