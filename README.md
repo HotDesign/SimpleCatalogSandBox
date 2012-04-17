@@ -1,7 +1,7 @@
-HotDesign SimpleCatalogBundle
+HotDesign SimpleCatalogSandbox
 ========================
 
-WARINING: Under development stage. 
+WARINING: Under beta stage. 
 
 Multilevel categorizable catalog. Multiple image upload. Thumbnails. Extensible.
 
@@ -11,17 +11,12 @@ Multilevel categorizable catalog. Multiple image upload. Thumbnails. Extensible.
 
 soon...
 
-* **git clone ....**
-* **copy app/config/parameters.ini.disct into app/config/parameters.ini edit with your values**
-* **mkdir app/cache app/logs app/db**
-* **sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs**
-* **sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs**
+* **git clone https://Marian0@github.com/HotDesign/SimpleCatalogSandBox.git**
+* **copy app/config/parameters.ini.default into app/config/parameters.ini edit with your values**
+* **run ./bin/install.sh**
 * **php bin/vendors install**
-* **php app/console doctrine:database:create**
-* **php app/console doctrine:schema:update --force**
-* **php app/console doctrine:fixtures:load**
-* **php app/console assets:install --symlink web**
-* **sudo chmod -R 777 app/db**
+* **run ./bin/dbrebuild.sh **
+* **Soon .... MyConfig**
 
 2) Extend / Customization
 -----------------------
