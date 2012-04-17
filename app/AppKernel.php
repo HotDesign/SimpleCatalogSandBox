@@ -31,15 +31,12 @@ class AppKernel extends Kernel {
             
             new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),   
             
-            //SimpleCatalog
-            //new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),   
+            //SimpleCatalog 
             new HotDesign\SimpleCatalogBundle\SimpleCatalogBundle(),
             new HotDesign\ScGeoExtBundle\ScGeoExtBundle(),
             new HotDesign\ScUserBundle\ScUserBundle(),
             new HotDesign\ScThemeBundle\HotDesignScThemeBundle(),
             new HotDesign\ScHousingExtBundle\ScHousingExtBundle(),
-
-
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

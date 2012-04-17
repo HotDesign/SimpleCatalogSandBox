@@ -18,7 +18,25 @@ soon...
 * **run ./bin/dbrebuild.sh **
 * **Soon .... MyConfig**
 
-2) Extend / Customization
+2) Customize frontend Theme
+-----------------------
+Create a bundle for your own theme and add it to the AppKernel.
+* **php app/console generate:bundle**
+
+In your bundle add the following:
+
+public function getParent() {
+    return 'HotDesignScThemeBundle';
+}
+
+Copy what ever you want to extend/customize from vendor/bundles/HotDesign/ScThemeBundle/Resources/
+and edit as you want (Here on your own bundle).
+
+Add the Menu/Builder.php 
+
+Add routing.yml.
+
+3) Extend / Customization
 -----------------------
 
 WARINING: Under development stage. WARINING: Under development stage. 
