@@ -31,3 +31,7 @@ nbproject
 
 #Ignoramos el archivo generado por el updater
 bin/updater.sh
+
+#Ignoramos los archivos de configuracion ClassesConfig
+app/ItemTypes.php
+app/MyConfig.php

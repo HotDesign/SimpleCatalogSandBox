@@ -31,6 +31,7 @@ $loader->registerNamespaces(array(
     'Pagerfanta'                    => __DIR__.'/../vendor/PagerFanta/src',
     
     //HotDesign
+    'ConfigClasses' => __DIR__,
     'HotDesign' => __DIR__.'/../vendor/bundles/',
 ));
 $loader->registerPrefixes(array(
