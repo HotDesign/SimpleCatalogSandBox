@@ -93,7 +93,6 @@
 [FOSUserBundle]
     git=http://github.com/FriendsOfSymfony/FOSUserBundle.git
     target=bundles/FOS/UserBundle
-    version=1.2.0
 
 [KnpMenu]
     git=https://github.com/KnpLabs/KnpMenu.git
