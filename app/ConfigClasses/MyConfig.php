@@ -25,5 +25,8 @@ class MyConfig {
 
     //Image upload assets
     public static $image_upload_path = 'catalog/images/';  
+    
+    //Load default fixtures
+    public static $default_fixtures = false;  
 
 }
